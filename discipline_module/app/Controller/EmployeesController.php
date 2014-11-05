@@ -1,5 +1,18 @@
 <?php
 class EmployeesController extends AppController {
+    // Function to find the verbal disciplines of an employee array
+    private function findDisciplineByType($employee, $type)
+    {
+        $disciplinebyType = array();
+
+        foreach ($employee['Discipline'] as $discipline) {
+            if ($discipline['type'] == $type) {
+                $disciplinebyType[] = $discipline;
+            }
+        }
+        return $disciplinebyType;
+    }
+
     public $helpers = array('Html', 'Form');
 
     public function index() {
@@ -15,6 +28,12 @@ class EmployeesController extends AppController {
         if(!$employee) {
             throw new NotFoundException(__('Invalid Employee'));
         }
+        // Find the verbal disciplines
+        $verbalDiscipline = $this->findDisciplineByType($employee, 0);
+        $writtenDiscipline = $this->findDisciplineByType($employee, 1);
+
+        $this->set('verbalDiscipline', $verbalDiscipline);
+        $this->set('writtenDiscipline', $writtenDiscipline);
         $this->set('employee', $employee);
     }
 

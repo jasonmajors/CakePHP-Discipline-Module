@@ -5,10 +5,10 @@
 	echo $this->Form->input(
 		'type', 
 		array(
-		'options' 	=> array('Verbal Warning', 'Written Warning', 'Suspension'),
-		'type' 		=> 'select',
-		'empty' 	=> '--Choose Type--',
-		'label'		=> 'Select Discipline Type',
+			'options' 	=> array('Verbal Warning', 'Written Warning', 'Suspension'),
+			'type' 		=> 'select',
+			'empty' 	=> '--Choose Type--',
+			'label'		=> 'Select Discipline Type',
 		));
 
 	echo $this->Form->input('description');
