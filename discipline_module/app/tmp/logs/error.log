@@ -1,0 +1,571 @@
+2014-09-27 20:15:46 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /cakephp/app/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-27 20:27:12 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /cakephp/app/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-27 20:27:42 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /cakephp/app/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-27 20:28:51 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /cakephp/app/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-27 20:31:04 Error: Fatal Error (64): Cannot redeclare class AppController in [/opt/lampp/htdocs/cakephp/app/Controller/AppController.php, line 35]
+2014-09-27 20:31:04 Error: [FatalErrorException] Cannot redeclare class AppController
+Request URL: /cakephp/app/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 35)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 35, Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/opt/lampp/htdo...', 35, Array)
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-27 20:31:35 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /cakephp/app/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-27 20:38:53 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /cakephp/app/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-27 20:38:56 Error: [MissingActionException] Action AppController::index.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index.php',
+)
+Request URL: /cakephp/app/index.php
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-27 20:41:04 Error: Fatal Error (4): syntax error, unexpected '.', expecting '(' in [/opt/lampp/htdocs/cakephp/app/Controller/AppController.php, line 34]
+2014-09-27 20:41:04 Error: [FatalErrorException] syntax error, unexpected '.', expecting '('
+Request URL: /cakephp/app/index.php
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 34, Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 34, Array)
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-27 20:41:23 Error: [MissingActionException] Action AppController::index.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index.php',
+)
+Request URL: /cakephp/app/index.php
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-27 20:41:47 Error: [MissingActionException] Action AppController::index.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index.php',
+)
+Request URL: /cakephp/app/index.php
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-27 20:42:38 Error: Fatal Error (4): syntax error, unexpected '.', expecting '(' in [/opt/lampp/htdocs/cakephp/app/Controller/AppController.php, line 39]
+2014-09-27 20:42:38 Error: [FatalErrorException] syntax error, unexpected '.', expecting '('
+Request URL: /cakephp/app/index.php
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 39, Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 39, Array)
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-27 20:42:39 Error: Fatal Error (4): syntax error, unexpected '.', expecting '(' in [/opt/lampp/htdocs/cakephp/app/Controller/AppController.php, line 39]
+2014-09-27 20:42:39 Error: [FatalErrorException] syntax error, unexpected '.', expecting '('
+Request URL: /cakephp/app/index.php
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 39, Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 39, Array)
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-27 20:42:49 Error: [MissingActionException] Action AppController::index.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index.php',
+)
+Request URL: /cakephp/app/index.php
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-27 20:45:27 Error: [MissingActionException] Action AppController::index.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index.php',
+)
+Request URL: /cakephp/app/index.php
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-27 20:45:29 Error: [MissingActionException] Action AppController::index.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index.php',
+)
+Request URL: /cakephp/app/index.php
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-27 20:45:33 Error: [MissingActionException] Action AppController::index.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index.php',
+)
+Request URL: /cakephp/app/index.php
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-27 20:52:45 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/opt/lampp/htdocs/cakephp/app/Controller/AppController.php, line 35]
+2014-09-27 20:52:45 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /cakephp/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 35, Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 35, Array)
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-27 20:52:57 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(227): CakePlugin::path('DebugKit')
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#7 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->constructClasses()
+#8 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-27 23:17:11 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-27 23:17:37 Error: [MissingViewException] View file "/opt/lampp/htdocs/cakephp/app/View/Posts/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/cakephp/app/View/Posts/index.ctp',
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-28 19:33:53 Error: [MissingViewException] View file "/opt/lampp/htdocs/cakephp/app/View/Posts/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/cakephp/app/View/Posts/index.ctp',
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-28 19:34:48 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [/opt/lampp/htdocs/cakephp/app/View/Posts/index.ctp, line 19]
+2014-09-28 19:34:48 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 19, Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 19, Array)
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-28 19:38:22 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /cakephp/posts/view/1
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-28 19:48:45 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /cakephp/posts/view/1
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-28 19:57:00 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/opt/lampp/htdocs/cakephp/app/Controller/PostsController.php, line 15]
+2014-09-28 19:57:00 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /cakephp/posts/view/1
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 15, Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 15, Array)
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-28 22:46:13 Error: Fatal Error (4): syntax error, unexpected '{' in [/opt/lampp/htdocs/cakephp/app/Controller/PostsController.php, line 56]
+2014-09-28 22:46:13 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 56, Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 56, Array)
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-28 22:48:03 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakephp/posts/delete/1
+Stack Trace:
+#0 [internal function]: PostsController->delete('1')
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-28 22:49:50 Error: [MissingHelperException] Helper class PostHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PostHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Post')
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(837): HelperCollection->__isset('Post')
+#2 /opt/lampp/htdocs/cakephp/app/View/Posts/index.ctp(31): View->__get('Post')
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(948): include('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(910): View->_evaluate('/opt/lampp/htdo...', Array)
+#5 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(471): View->_render('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-28 22:51:01 Error: [MissingHelperException] Helper class PostHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PostHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Post')
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(837): HelperCollection->__isset('Post')
+#2 /opt/lampp/htdocs/cakephp/app/View/Posts/index.ctp(31): View->__get('Post')
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(948): include('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(910): View->_evaluate('/opt/lampp/htdo...', Array)
+#5 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(471): View->_render('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-28 22:51:14 Error: [MissingHelperException] Helper class PostHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PostHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Post')
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(837): HelperCollection->__isset('Post')
+#2 /opt/lampp/htdocs/cakephp/app/View/Posts/index.ctp(31): View->__get('Post')
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(948): include('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(910): View->_evaluate('/opt/lampp/htdo...', Array)
+#5 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(471): View->_render('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-28 22:52:31 Error: [MissingHelperException] Helper class PostHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PostHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Post')
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(837): HelperCollection->__isset('Post')
+#2 /opt/lampp/htdocs/cakephp/app/View/Posts/index.ctp(32): View->__get('Post')
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(948): include('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(910): View->_evaluate('/opt/lampp/htdo...', Array)
+#5 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(471): View->_render('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-28 22:55:28 Error: [MissingHelperException] Helper class PostHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PostHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Post')
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(837): HelperCollection->__isset('Post')
+#2 /opt/lampp/htdocs/cakephp/app/View/Posts/index.ctp(32): View->__get('Post')
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(948): include('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(910): View->_evaluate('/opt/lampp/htdo...', Array)
+#5 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(471): View->_render('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-28 23:12:27 Error: [MissingHelperException] Helper class PostHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PostHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/posts/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Post')
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(837): HelperCollection->__isset('Post')
+#2 /opt/lampp/htdocs/cakephp/app/View/Posts/index.ctp(32): View->__get('Post')
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(948): include('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(910): View->_evaluate('/opt/lampp/htdo...', Array)
+#5 /opt/lampp/htdocs/cakephp/lib/Cake/View/View.php(471): View->_render('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-29 01:29:42 Error: [MissingTableException] Table employees for model Employee was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'employees',
+  'class' => 'Employee',
+  'ds' => 'default',
+)
+Request URL: /cakephp/employees
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Model.php(3551): Model->setSource('employees')
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#3 /opt/lampp/htdocs/cakephp/app/Controller/EmployeesController.php(6): Model->find('all')
+#4 [internal function]: EmployeesController->index()
+#5 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployeesController), Array)
+#6 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EmployeesController), Object(CakeRequest))
+#8 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-09-29 01:45:42 Error: Fatal Error (4): syntax error, unexpected end of file in [/opt/lampp/htdocs/cakephp/app/View/Employees/index.ctp, line 15]
+2014-09-29 01:45:42 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /cakephp/employees
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 15, Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 15, Array)
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-01 06:11:18 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [/opt/lampp/htdocs/cakephp/app/View/Employees/index.ctp, line 10]
+2014-10-01 06:11:18 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /cakephp/employees
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 10, Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 10, Array)
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-15 08:19:46 Error: Fatal Error (1): Call to a member function create() on a non-object in [/opt/lampp/htdocs/cakephp/app/Controller/EmployeesController.php, line 50]
+2014-10-15 08:19:46 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp/employees/add_discipline/1
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 50, Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 50, Array)
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-15 08:21:36 Error: Fatal Error (1): Call to a member function create() on a non-object in [/opt/lampp/htdocs/cakephp/app/Controller/EmployeesController.php, line 50]
+2014-10-15 08:21:36 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp/employees/add_discipline/1
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 50, Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 50, Array)
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-15 08:21:52 Error: Fatal Error (1): Call to a member function save() on a non-object in [/opt/lampp/htdocs/cakephp/app/Controller/EmployeesController.php, line 51]
+2014-10-15 08:21:52 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cakephp/employees/add_discipline/1
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 51, Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 51, Array)
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-15 08:22:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cakeblog`.`disciplines`, CONSTRAINT `d_fk` FOREIGN KEY (`employee_id`) REFERENCES `employees` (`id`))
+Request URL: /cakephp/employees/add_discipline/1
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `ca...')
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Model.php(1854): DboSource->create(Object(Discipline), Array, Array)
+#4 /opt/lampp/htdocs/cakephp/app/Controller/EmployeesController.php(51): Model->save(Array)
+#5 [internal function]: EmployeesController->add_discipline('1')
+#6 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployeesController), Array)
+#7 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EmployeesController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-15 08:23:10 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cakeblog`.`disciplines`, CONSTRAINT `d_fk` FOREIGN KEY (`employee_id`) REFERENCES `employees` (`id`))
+Request URL: /cakephp/employees/add_discipline/1
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `ca...')
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Model.php(1854): DboSource->create(Object(Discipline), Array, Array)
+#4 /opt/lampp/htdocs/cakephp/app/Controller/EmployeesController.php(51): Model->save(Array)
+#5 [internal function]: EmployeesController->add_discipline('1')
+#6 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployeesController), Array)
+#7 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EmployeesController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-15 08:27:57 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cakeblog`.`disciplines`, CONSTRAINT `d_fk` FOREIGN KEY (`employee_id`) REFERENCES `employees` (`id`))
+Request URL: /cakephp/employees/add_discipline/8
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `ca...')
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Model/Model.php(1854): DboSource->create(Object(Discipline), Array, Array)
+#4 /opt/lampp/htdocs/cakephp/app/Controller/EmployeesController.php(51): Model->save(Array)
+#5 [internal function]: EmployeesController->add_discipline('8')
+#6 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployeesController), Array)
+#7 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EmployeesController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-15 08:29:04 Error: [MissingActionException] Action EmployeesController::add_discipline() could not be found.
+Exception Attributes: array (
+  'controller' => 'EmployeesController',
+  'action' => 'add_discipline',
+)
+Request URL: /cakephp/employees/add_discipline/8
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EmployeesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-15 08:29:27 Error: [MissingActionException] Action EmployeesController::add_discipline() could not be found.
+Exception Attributes: array (
+  'controller' => 'EmployeesController',
+  'action' => 'add_discipline',
+)
+Request URL: /cakephp/employees/add_discipline/8
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EmployeesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-15 08:32:44 Error: [NotFoundException] Invalid Employee
+Request URL: /cakephp/employees/add_discipline/10
+Stack Trace:
+#0 [internal function]: EmployeesController->add_discipline('10')
+#1 /opt/lampp/htdocs/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EmployeesController), Array)
+#2 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EmployeesController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-05 08:01:12 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-05 08:02:46 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /opt/lampp/htdocs/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
