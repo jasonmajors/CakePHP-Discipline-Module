@@ -4,8 +4,6 @@ class EmployeesController extends AppController {
 
     public function index() {
         $this->set('employees', $this->Employee->find('all'));
-        $empl = $this->Employee->findById(1);
-        $this->set('empl', $empl);
     }
 
     public function view($id=null) 
@@ -23,9 +21,7 @@ class EmployeesController extends AppController {
     public function add_employee() 
     {
         if($this->request->is('post')) {
-            $datetime = date('Y-m-d H:i:s');
             $this->Employee->create();
-            $this->Employee->set('added', $datetime);
             // Validate and save data;
             if($this->Employee->save($this->request->data)) {
                 $this->Session->setFlash(__('New Employee Added'));

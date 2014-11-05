@@ -3,7 +3,7 @@
 	<tr>
 		<th>Last Name</th>
 		<th>First Name</th>
-		<th>Added</th>
+		<th>Department</th>
 		<th>View Employee</th>
 		<th>Discipline</th>
 	</tr>
@@ -12,7 +12,7 @@
 	<tr>
 		<td><?php echo $employee['Employee']['lastn']; ?></td>
 		<td><?php echo $employee['Employee']['firstn']; ?></td>
-		<td><?php echo $employee['Employee']['added']; ?></td>
+		<td><?php echo $employee['Employee']['department']; ?></td>
 		<td>
 			<?php echo $this->Html->link('View Employee', 
 			array(	'controller' => 'employees',
